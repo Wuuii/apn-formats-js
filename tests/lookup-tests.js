@@ -13,6 +13,9 @@ console.log(apn.lookup());
 console.log(apn.lookup("Nebraska", "Douglas"));
 console.log(apn.lookup("DC"));
 console.log(apn.lookup("tx", "dallas"));
+console.log(apn.lookup("washington", "Pend Oreille"));
+console.log(apn.lookup("wa", "pend oreille"));
+console.log(apn.lookup("wa", "pendoreille"));
 
 // Connecticut
 console.log("Fairfield", apn.lookup("Connecticut", "Fairfield"));
